@@ -1,17 +1,18 @@
 export const theme = {
   name: "DefaultTheme",
   colors: {
-    WHITE: "#eef2f5",
+    WHITE: "#ffffff",
+    WHITE_PRIMARY: "#eef2f5",
     BLACK: "#313030",
     PRIMARY: "#334153",
     SECONDARY: "#4030ff",
     GRAY: "#EEEEEE",
   },
   fonts: {
-    Montserrat_Regular: "Montserrat_400Regular",
-    Montserrat_Medium: "Montserrat_500Medium",
-    Montserrat_SemiBold: "Montserrat_600SemiBold",
-    Montserrat_Bold: "Montserrat_700Bold",
+    Roboto_Regular: "Roboto_400Regular",
+    Roboto_Medium: "Roboto_500Medium",
+    Roboto_SemiBold: "Roboto_600SemiBold",
+    Roboto_Bold: "Roboto_700Bold",
   },
   sizes: {
     SMALL: 12,
