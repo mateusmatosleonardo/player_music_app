@@ -1,5 +1,6 @@
 import styled from "styled-components/native";
 import { RFValue } from "react-native-responsive-fontsize";
+import { StyleSheet } from "react-native";
 
 export const Container = styled.SafeAreaView`
   flex: 1;
@@ -70,15 +71,23 @@ export const ArtistName = styled.Text`
   padding-top: 8px;
 `;
 
+export const AlignWrapper = styled.View`
+  /* justify-content: center;
+  align-items: ; */
+  width: 100%;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 30px;
+`;
+
 export const WrapperActions = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /* margin-top: 70px; */
-  padding: 0px 40px;
-  position: absolute;
-  bottom: 35px;
+  padding: 14px 28px;
+  border-radius: 20px;
+  background-color: ${({ theme }) => theme.colors.WHITE};
 `;
 
 export const ContainerPlay = styled.Pressable`
