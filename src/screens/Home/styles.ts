@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
-import { RFValue } from "react-native-responsive-fontsize";
 import { StyleSheet } from "react-native";
+import { RFValue } from "react-native-responsive-fontsize";
 
 export const Container = styled.SafeAreaView`
   flex: 1;
@@ -97,3 +97,13 @@ export const ContainerPlay = styled.Pressable`
 `;
 
 export const Action = styled.Pressable``;
+
+export const styles = StyleSheet.create({
+  shadow: {
+    shadowColor: "#b9b9b9",
+    shadowOffset: { width: 0.5, height: 1 },
+    shadowOpacity: 0.8,
+    shadowRadius: 1,
+    elevation: 4,
+  },
+});
