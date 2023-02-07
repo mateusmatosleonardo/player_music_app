@@ -8,6 +8,7 @@ import {
   Roboto_500Medium,
   Roboto_700Bold
 } from '@expo-google-fonts/roboto';
+import { ForYou } from './src/screens/ForYou/ForYou';
 
 export default function App() {
 
@@ -24,7 +25,8 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <ForYou />
+      {/* <Home /> */}
       <StatusBar style="auto" />
     </ThemeProvider>
   );
